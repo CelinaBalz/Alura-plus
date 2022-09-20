@@ -1,0 +1,38 @@
+
+Curso de
+HTML e CSS: praticando HTML/CSS
+Instrutor: Mônica Mazzochi Hillman
+
+Modulo 1:
+Criação do css e html base (dividi em pastas como aprendi no curso de arquitetura CSS).
+Explicação sobre o inicio do HTML. 
+Criação de variaveis Root no css para cores.
+Iniciou o reset de algumas configurações, então criei um arquivo separado para isso.
+Começou a baixar imagem por imagem pelo figma, eu prefiro baixar todas em um zip de uma vez selecionando File > export.
+Criando a primeira section vou estar nomeando as classes utilizando o BEM e separar os blocos de elementos em pastas. (Arquitetura baseada em atomic desin mas simplificada)
+ 
+
+Modulo 2:
+Explicou sobre o uso de ancora ao invez de button.
+Criei as classes de forma diferente para facilitar no caso de criação de novos botões, para quando um novo ser adicionado já possuir a predefinição de todos os botoes
+ e quando um atributo for selecionado seu design for alterado previamente.
+
+
+Modulo 3:
+Apresentou a diferença  entre margin e paddings.
+Alinhou a div, prefer alinhar com flexbox.
+Iniciamos a construcao da nova section. 
+Reutilizamos classes.
+
+Modulo 4:
+Utilizando flexbox.
+Iniciando com pseudo-classes como hover. 
+
+
+Modulo 5:
+Colocando o projeto no github.
+Colocando o projeto no ar por meio do github pages.
+
+---------------------------------------------------------------------------------------------------------------
+Curso finalizado, estarei adicionando novas configurações para responsividade da pagina.
+Retirei algumas imagens para telas menores para deixar o design mais simples. 

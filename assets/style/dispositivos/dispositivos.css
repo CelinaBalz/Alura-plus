@@ -1,0 +1,44 @@
+.dispositivos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.dispositivos__titulo{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.dispositivos__lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.dispositivos__lista__titulo{
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 768px){
+
+    .dispositivos{
+        margin: 0;
+    }
+    
+    .dispositivos__titulo{
+        position: relative;
+        left: 25%;
+        font-size: 2rem;
+        width: 50%;
+    }
+
+    .dispositivos__lista{
+        flex-direction: column;
+    }
+    
+}

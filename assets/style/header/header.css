@@ -1,0 +1,85 @@
+.header{
+    align-items: center;
+    background-image: url(/assets/img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-weight: 400;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+}
+
+.header__container{
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header__titulo{
+    font-size: 1.5rem;
+    width: 70%;
+}
+
+.header__img{
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.header__botao{
+    border-radius: 8px;
+    color: var(--branco-principal);
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-block: 9px;
+    position: relative;
+    padding: 20px;
+    width: 28rem;
+    text-decoration: none;
+}
+
+
+
+.header__botao-transparente{
+    border: solid white 2px;
+}
+
+.header__botao-transparente:hover{
+    background-color: var(--hover-claro);
+    animation: fade2 ease-in-out 0.2s;
+    color: black;
+    text-decoration: underline;
+}
+
+@keyframes fade2{
+    0% {background-color: transparent;}
+    100% {background-color: var(--hover-claro);}
+}
+
+.header__descricao{
+    font-size: 0.75rem;
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        background-image: none;
+        display: flex;
+        justify-content: center;
+        height: min-content;
+    }
+    .header__titulo{
+        margin-bottom: 3rem;
+    }
+
+    .header__img{
+        margin-bottom: 3rem;
+    }
+
+    .header__botao{
+        margin-bottom: 1rem;
+    }
+}
